@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.firstnav{
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.divnavbar{
+ /* display: flex; */
+ padding-top: 20px;
+ font-size: 15px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-right: 40px; */
+}
+.divnavbar button{
+    padding: 15px;
+    width: 150px;
+    color:  rgb(34,64,147);
+    background-color: rgb(253,185,21);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.a{
+    margin-right: 20px;
+    color: black ;
+    margin-top: 10px;
+    color: rgb(34,64,147);
+    text-decoration: none;
+
+}
+.ai{
+    margin-right: 20px;
+    margin-top: 10px;
+    color: rgb(34,64,147);
+    text-decoration: none;
+}
+.a2{
+    margin-top: 10px;
+    color: rgb(34,64,147);
+    text-decoration: none;
+    margin-right:20px ;
+}
+.all1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.div1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 40px;
+    display: flex;
+}
+.img{
+    border: 1px solid green ;
+    border-radius: 100%;
+    margin-bottom: 5px;
+    transform: img translate(100) 3s infinit;
+}
+@keyframes img{
+    0%{
+      transform: translate(opx,30px);
+    }
+}
+.div2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 40px;
+    display: flex;
+    
+}
+.div2 hr{
+    width: 250px;
+    height: 1px;
+    margin-top: 18px;
+}
+.div1 hr{
+    width: 250px;
+    height: 1px;
+    margin-top: 18px;
+}
+.buy{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34,64,147) ;
+}
